@@ -1,4 +1,4 @@
-import { addClasses, createHtmlEl } from '../../helpers/renderFunctions';
+import { addClasses, createHtmlEl } from '../../helpers/dom';
 
 const getInputColon = (btnName: string): HTMLElement => {
   const container = createHtmlEl('div', 'menuItem');

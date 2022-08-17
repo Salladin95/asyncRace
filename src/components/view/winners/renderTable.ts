@@ -1,5 +1,5 @@
 import { Icar, IWinner } from '../../../system/contracts';
-import { createHtmlEl } from '../../helpers/renderFunctions';
+import { createHtmlEl } from '../../helpers/dom';
 import { getWinnerRequest, selectRequest } from '../../server';
 import { getCar } from '../garage/track/track';
 

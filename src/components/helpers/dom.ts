@@ -19,3 +19,8 @@ export const addClasses = (
 ): void => {
   classNames.forEach((className) => el.classList.add(className));
 };
+
+export const removeDocumentElements = (selector: string): void => {
+  const errors = Array.from(document.querySelectorAll<HTMLElement>(`.${selector}`));
+  errors.forEach((el) => el.remove());
+};

@@ -1,4 +1,4 @@
-import { createHtmlEl } from '../helpers/renderFunctions';
+import { createHtmlEl } from '../helpers/dom';
 import { engine } from '../server';
 import { animation } from './animation';
 import { blockTrackButtnos, unblockTrackButtnos } from './toggleStateForButtons';

@@ -1,5 +1,5 @@
 import { getGarageMenu, getToGarageBtn, getToWinnersBtn } from '../garage/garageMenu';
-import { createHtmlEl } from '../../helpers/renderFunctions';
+import { createHtmlEl } from '../../helpers/dom';
 import { getPopup } from '../garage/popup/renderPopup';
 import { hidePopup } from '../garage/popup/interructWithPopup';
 import { getWrapperForCarsAndPagination } from '../garage/track/track';

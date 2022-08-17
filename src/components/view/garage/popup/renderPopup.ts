@@ -1,4 +1,4 @@
-import { addClasses, createHtmlEl } from '../../../helpers/renderFunctions';
+import { addClasses, createHtmlEl } from '../../../helpers/dom';
 
 const getPopupItem = (id: string, type: string): HTMLElement => {
   const wrapper = createHtmlEl('div', 'popup__item');

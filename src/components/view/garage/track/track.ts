@@ -1,5 +1,5 @@
 import { Icar } from '../../../../system/contracts';
-import { addClasses, createHtmlEl } from '../../../helpers/renderFunctions';
+import { addClasses, createHtmlEl } from '../../../helpers/dom';
 
 export const getCar = (color: string): HTMLElement => {
   const wrapper = createHtmlEl('div', 'wrapper-car');

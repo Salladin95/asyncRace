@@ -1,5 +1,5 @@
 import { IWinner } from '../../system/contracts';
-import { createHtmlEl } from '../helpers/renderFunctions';
+import { removeDocumentElements, createHtmlEl } from '../helpers/dom';
 import { Observer } from '../oberver';
 import { engine, getWinnersRequest } from '../server';
 import { animationRace } from './animation';
@@ -10,7 +10,14 @@ export const race = async (): Promise<number> => {
   const cars = document.querySelectorAll('.wrapper-car');
   const promisesStart: Promise<unknown>[] = [];
 
+  removeDocumentElements('error');
+  removeDocumentElements('winner');
+
   cars.forEach((car) => {
+    if (document.querySelector('.winner')) {
+      (document.querySelector('.winner') as HTMLElement).remove();
+    }
+    (car as HTMLElement).style.left = '105px';
     const id: number = +(car.getAttribute('data-id') as string);
     promisesStart.push(engine(id, 'started'));
   });

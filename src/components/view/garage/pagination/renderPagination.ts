@@ -1,5 +1,5 @@
 import { PaginationOption } from '../../../../system/contracts';
-import { addClasses, createHtmlEl } from '../../../helpers/renderFunctions';
+import { addClasses, createHtmlEl } from '../../../helpers/dom';
 
 export const getPagination = (): void => {
   const topLeft = createHtmlEl('button', 'btn-pagination', '<<');
