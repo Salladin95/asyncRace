@@ -1,0 +1,47 @@
+.wrapper-car {
+  max-width: 50px;
+  position: absolute;
+  top: 70px;
+  left: 105px;
+}
+
+.icon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.track {
+  border-bottom-width: 2px;
+  border-bottom-style: dashed; 
+  border-bottom-color: white;
+  position: relative;
+}
+
+
+.trackItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  .btn {
+    margin-right: .6rem;
+  }
+  .start, .stop {
+    max-width: 50px;
+    max-height: 40px;
+  }
+
+  .flag {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+  }
+}
+
+.flagImg {
+  width: 50px;
+}
+
+.title {
+  margin-bottom: 1rem;
+}

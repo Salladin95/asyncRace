@@ -1,0 +1,9 @@
+.pagination {
+  justify-content: center;
+
+  .btn {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}

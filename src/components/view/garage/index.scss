@@ -1,0 +1,52 @@
+.navigation {
+  max-width: 300px;
+  margin-bottom: 2rem;
+
+  .toGarage {
+    margin-right: 1rem;
+  }
+}
+
+.track {
+  margin-bottom: 2.5rem;  
+}
+
+.menu {
+  max-width: 400px;
+  margin-bottom: 2rem;
+
+  &Item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  input {
+    margin-right: .6rem;
+  }
+
+  .btn {
+    margin-right: .6rem;
+  }
+
+  .race, .reset {
+    width: 105px;
+  }
+}
+
+.error {
+  color: red;
+  position: absolute;
+  right: 30px;
+  top: 45px;
+  font-size: 1rem;
+}
+
+.winner {
+  color: gold;
+  position: absolute;
+  right: 30px;
+  top: 45px;
+  font-size: 1rem;
+}
