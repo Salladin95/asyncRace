@@ -1,0 +1,34 @@
+.winners {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+  .wrapper-car {
+    top: 0;
+    left: 72px;
+  }
+
+  .listItem {
+    display: flex;
+    justify-content: center;
+  }
+
+  .table__title, .table__value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #0d6efd;
+    width: 200px;
+    height: 50px;
+
+    &:first-child {
+      width: 50px;
+    }
+  }
+
+  .table__value {
+    position: relative;
+  }
+}

@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variable";
+@import "../components/view/garage/index";
+@import "../components/view/garage/track/car";
+@import "../components/view/garage/popup/index";
+@import "../components/view/garage/pagination/index";
+@import "../components/view/winners/index";
+
+body {
+  background-color: black;
+  font-size: 16px;
+  color: white;
+}
+
+.wrapper {
+  padding: 1rem;
+}
